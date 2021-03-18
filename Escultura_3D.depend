@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1615067979 source:c:\users\lenovo\documents\escultura_3d\main.cpp
+	<iostream>
+	<fstream>
+	"Sculptor.h"
+	"Voxel.h"
+
+1615833813 c:\users\lenovo\documents\escultura_3d\sculptor.h
+	"Voxel.h"
+
+1615485987 c:\users\lenovo\documents\escultura_3d\voxel.h
+
+1615810092 source:c:\users\lenovo\documents\escultura_3d\sculptor.cpp
+	<iostream>
+	<fstream>
+	<iomanip>
+	<queue>
+	"Sculptor.h"
+
