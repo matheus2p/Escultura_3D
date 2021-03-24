@@ -54,8 +54,25 @@ int main(void){
     d1.setColor(0.46,0.46,0.46,0.5);
     d1.putBox(0,16,21,22,2,16);
     d1.limpaVoxels();
-    d1.writeOFF((char*)"Patin1.off");
+    d1.writeOFF((char*)"Patin.off");
 
+    Sculptor E(31,31,31);
+    E.putSphere(15,15,15,10);
+    E.writeOFF((char*)"Esfera.off");
+
+    Sculptor E2(31,31,31);
+    E2.putSphere(15,15,15,10);
+    E2.cutSphere(15,19,15,11);
+    E2.writeOFF((char*)"Esfera1.off");
+
+    Sculptor El(31,31,31);
+    El.putEllipsoid(15,15,15,10,7,5);
+    El.writeOFF((char*)"Elipsoide.off");
+
+    Sculptor E1(31,31,31);
+    E1.putEllipsoid(15,15,15,10,7,5);
+    E1.cutEllipsoid(15,15,17,7,5,3);
+    E1.writeOFF((char*)"Elipsoide1.off");
     return 0;
 
 }
