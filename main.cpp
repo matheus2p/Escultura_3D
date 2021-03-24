@@ -56,6 +56,10 @@ int main(void){
     d1.limpaVoxels();
     d1.writeOFF((char*)"Patin.off");
 
+
+
+    // TESTE DAS FUNCIONALIDADES IMPLEMENTADAS
+
     Sculptor E(31,31,31);
     E.putSphere(15,15,15,10);
     E.writeOFF((char*)"Esfera.off");
@@ -73,6 +77,7 @@ int main(void){
     E1.putEllipsoid(15,15,15,10,7,5);
     E1.cutEllipsoid(15,15,17,7,5,3);
     E1.writeOFF((char*)"Elipsoide1.off");
+
     return 0;
 
 }
